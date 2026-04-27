@@ -1,10 +1,10 @@
 using System;
 using StoreBackend.Domain.Entities;
-using StoreBackend.Dto;
+using StoreBackend.Dto.product;
 using StoreBackend.Exceptions;
-using StoreBackend.Infrastructure.Repositories;
+using StoreBackend.Infrastructure.Repositories.product;
 
-namespace StoreBackend.DomainService;
+namespace StoreBackend.DomainService.product;
 
 public class ProductService:IProductService
 {

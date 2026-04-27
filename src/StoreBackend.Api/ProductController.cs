@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using StoreBackend.Api.Mappers;
-using StoreBackend.Api.Models.Requests;
+using StoreBackend.Api.Models.Requests.product;
 using StoreBackend.Exceptions;
-using StoreBackend.Facade;
+using StoreBackend.Facade.product;
 
 namespace StoreBackend.Api
 {

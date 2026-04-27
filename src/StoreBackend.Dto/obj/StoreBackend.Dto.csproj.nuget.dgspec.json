@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Justin\\OneDrive\\Documents\\Universidad de Costa Rica\\Software4\\StoreBackend\\src\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj": {}
+    "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Justin\\OneDrive\\Documents\\Universidad de Costa Rica\\Software4\\StoreBackend\\src\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj": {
+    "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Justin\\OneDrive\\Documents\\Universidad de Costa Rica\\Software4\\StoreBackend\\src\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj",
+        "projectUniqueName": "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj",
         "projectName": "StoreBackend.Dto",
-        "projectPath": "C:\\Users\\Justin\\OneDrive\\Documents\\Universidad de Costa Rica\\Software4\\StoreBackend\\src\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj",
+        "projectPath": "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj",
         "packagesPath": "C:\\Users\\Justin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Justin\\OneDrive\\Documents\\Universidad de Costa Rica\\Software4\\StoreBackend\\src\\src\\StoreBackend.Dto\\obj\\",
+        "outputPath": "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.Dto\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -30,6 +30,7 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -44,10 +45,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -65,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

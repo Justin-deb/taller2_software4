@@ -1,8 +1,8 @@
 using System;
 using StoreBackend.Domain.Entities;
-using StoreBackend.Dto;
+using StoreBackend.Dto.product;
 
-namespace StoreBackend.DomainService;
+namespace StoreBackend.DomainService.product;
 
 public interface IProductService
 {

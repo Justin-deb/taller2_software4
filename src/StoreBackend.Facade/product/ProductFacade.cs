@@ -1,12 +1,12 @@
 using System;
 using StoreBackend.Domain.Entities;
-using StoreBackend.DomainService;
-using StoreBackend.Dto;
+using StoreBackend.DomainService.product;
+using StoreBackend.Dto.product;
 using StoreBackend.Exceptions;
 using StoreBackend.Facade.Mappers;
 using StoreBackend.Infrastructure.Repositories;
 
-namespace StoreBackend.Facade;
+namespace StoreBackend.Facade.product;
 
 public class ProductFacade:IProductFacade
 {

@@ -20,3 +20,15 @@ C:\Users\Justin\OneDrive\Documents\Universidad de Costa Rica\Software4\StoreBack
 C:\Users\Justin\OneDrive\Documents\Universidad de Costa Rica\Software4\StoreBackend\src\src\StoreBackend.Dto\obj\Debug\net10.0\refint\StoreBackend.Dto.dll
 C:\Users\Justin\OneDrive\Documents\Universidad de Costa Rica\Software4\StoreBackend\src\src\StoreBackend.Dto\obj\Debug\net10.0\StoreBackend.Dto.pdb
 C:\Users\Justin\OneDrive\Documents\Universidad de Costa Rica\Software4\StoreBackend\src\src\StoreBackend.Dto\obj\Debug\net10.0\ref\StoreBackend.Dto.dll
+C:\Users\Justin\Documents\Universidad de Costa Rica\Software4\taller2_software4\src\StoreBackend.Dto\bin\Debug\net10.0\StoreBackend.Dto.deps.json
+C:\Users\Justin\Documents\Universidad de Costa Rica\Software4\taller2_software4\src\StoreBackend.Dto\bin\Debug\net10.0\StoreBackend.Dto.dll
+C:\Users\Justin\Documents\Universidad de Costa Rica\Software4\taller2_software4\src\StoreBackend.Dto\bin\Debug\net10.0\StoreBackend.Dto.pdb
+C:\Users\Justin\Documents\Universidad de Costa Rica\Software4\taller2_software4\src\StoreBackend.Dto\obj\Debug\net10.0\StoreBackend.Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Justin\Documents\Universidad de Costa Rica\Software4\taller2_software4\src\StoreBackend.Dto\obj\Debug\net10.0\StoreBackend.Dto.AssemblyInfoInputs.cache
+C:\Users\Justin\Documents\Universidad de Costa Rica\Software4\taller2_software4\src\StoreBackend.Dto\obj\Debug\net10.0\StoreBackend.Dto.AssemblyInfo.cs
+C:\Users\Justin\Documents\Universidad de Costa Rica\Software4\taller2_software4\src\StoreBackend.Dto\obj\Debug\net10.0\StoreBackend.Dto.csproj.CoreCompileInputs.cache
+C:\Users\Justin\Documents\Universidad de Costa Rica\Software4\taller2_software4\src\StoreBackend.Dto\obj\Debug\net10.0\StoreBackend.Dto.sourcelink.json
+C:\Users\Justin\Documents\Universidad de Costa Rica\Software4\taller2_software4\src\StoreBackend.Dto\obj\Debug\net10.0\StoreBackend.Dto.dll
+C:\Users\Justin\Documents\Universidad de Costa Rica\Software4\taller2_software4\src\StoreBackend.Dto\obj\Debug\net10.0\refint\StoreBackend.Dto.dll
+C:\Users\Justin\Documents\Universidad de Costa Rica\Software4\taller2_software4\src\StoreBackend.Dto\obj\Debug\net10.0\StoreBackend.Dto.pdb
+C:\Users\Justin\Documents\Universidad de Costa Rica\Software4\taller2_software4\src\StoreBackend.Dto\obj\Debug\net10.0\ref\StoreBackend.Dto.dll

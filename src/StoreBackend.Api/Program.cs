@@ -1,7 +1,11 @@
 using Microsoft.EntityFrameworkCore;
-using StoreBackend.DomainService;
-using StoreBackend.Facade;
+using StoreBackend.DomainService.product;
+using StoreBackend.DomainService.user;
+using StoreBackend.Facade.product;
+using StoreBackend.Facade.user;
 using StoreBackend.Infrastructure.Repositories;
+using StoreBackend.Infrastructure.Repositories.product;
+using StoreBackend.Infrastructure.Repositories.user;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,8 +17,13 @@ builder.Services.AddDbContext<AppDbContext>(opt =>
             builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddScoped<IProductRepository,ProductRepository>();
+builder.Services.AddScoped<IUserRepository,UserRepository>();
+
 builder.Services.AddScoped<IProductService,ProductService>();
+builder.Services.AddScoped<IUserService,UserService>();
+
 builder.Services.AddScoped<IProductFacade,ProductFacade>();
+builder.Services.AddScoped<IUserFacade,UserFacade>();
 
 var app = builder.Build();
 

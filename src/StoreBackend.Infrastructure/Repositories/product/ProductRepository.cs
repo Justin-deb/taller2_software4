@@ -2,7 +2,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using StoreBackend.Domain.Entities;
 
-namespace StoreBackend.Infrastructure.Repositories;
+namespace StoreBackend.Infrastructure.Repositories.product;
 
 public class ProductRepository:IProductRepository
 {

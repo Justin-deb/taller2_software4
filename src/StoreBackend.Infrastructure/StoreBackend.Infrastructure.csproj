@@ -12,11 +12,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Repositories\" />
+    <ProjectReference Include="..\StoreBackend.Domain\StoreBackend.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\StoreBackend.Domain\StoreBackend.Domain.csproj" />
+    <Folder Include="Repositories\user\" />
   </ItemGroup>
 
 </Project>

@@ -13,4 +13,8 @@
     <ProjectReference Include="..\StoreBackend.Infrastructure\StoreBackend.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="user\" />
+  </ItemGroup>
+
 </Project>

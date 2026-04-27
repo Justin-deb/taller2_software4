@@ -1,6 +1,6 @@
 using System;
 
-namespace StoreBackend.Api.Models.Responses;
+namespace StoreBackend.Api.Models.Responses.product;
 
 public class ProductResponseModel
 {

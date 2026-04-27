@@ -1,6 +1,6 @@
 using System;
 using StoreBackend.Domain.Entities;
-using StoreBackend.Dto;
+using StoreBackend.Dto.product;
 
 namespace StoreBackend.Facade.Mappers;
 

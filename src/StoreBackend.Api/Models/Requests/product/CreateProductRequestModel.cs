@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace StoreBackend.Api.Models.Requests;
+namespace StoreBackend.Api.Models.Requests.product;
 
 public class CreateProductRequestModel
 {

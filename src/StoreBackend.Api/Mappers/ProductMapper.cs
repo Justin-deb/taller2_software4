@@ -1,8 +1,7 @@
 using System;
-using StoreBackend.Api.Models.Requests;
-using StoreBackend.Api.Models.Responses;
-using StoreBackend.DomainService;
-using StoreBackend.Dto;
+using StoreBackend.Api.Models.Requests.product;
+using StoreBackend.Api.Models.Responses.product;
+using StoreBackend.Dto.product;
 
 namespace StoreBackend.Api.Mappers;
 

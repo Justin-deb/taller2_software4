@@ -1,6 +1,6 @@
 using System;
 
-namespace StoreBackend.Dto;
+namespace StoreBackend.Dto.product;
 
 public class ProductDto
 {

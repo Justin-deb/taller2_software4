@@ -1,5 +1,5 @@
 using StoreBackend.Domain.Entities;
-namespace StoreBackend.Infrastructure.Repositories;
+namespace StoreBackend.Infrastructure.Repositories.product;
 
 public interface IProductRepository
 {
