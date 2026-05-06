@@ -22,21 +22,41 @@ public class UserService : IUserService
     {
         return _userRepository.GetByIdAsync(userId);
     }
-    public Task<User> AddAsync(UserDto user)
+    public Task<User> AddAsync(CreateUserDto user)
     {
         var userEntity = new User
         {
-            ExternalId = user.ExternalId,
             Username = user.Username,
             Email = user.Email,
-            Passwordhash = user.Passwordhash,
+            Name = user.Name,
         };
         return _userRepository.AddAsync(userEntity);
     }
     public async Task DeleteAsync(Guid userId)
     {
         var user = await _userRepository.GetByIdAsync(userId);
-        if(user == null) throw new ResourceNotFoundException();
+        if (user == null) throw new ResourceNotFoundException();
         await _userRepository.DeleteAsync(user);
     }
+    public async Task<User> CreateAsync(CreateUserDto user)
+    {
+        if (await _userRepository.HasUserByUsernameAsync(user.Username))
+        {
+            throw new Exceptions.BadRequestResponseException("Username is already taken");
+        }
+        if (await _userRepository.HasUserByEmailAsync(user.Email))
+        {
+            throw new Exceptions.BadRequestResponseException("Email is already taken");
+        }
+        var entity = new User
+        {
+            ExternalId = Guid.NewGuid(),
+            Name = user.Name,
+            Username = user.Username,
+            Email = user.Email,
+            Passwordhash = BCrypt.Net.BCrypt.HashPassword(user.Password)
+        };
+        return await _userRepository.CreateAsync(entity);
+    }
+
 }

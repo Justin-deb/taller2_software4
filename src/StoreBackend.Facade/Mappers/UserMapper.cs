@@ -6,9 +6,9 @@ namespace StoreBackend.Facade.Mappers;
 
 public class UserMapper
 {
-    public static List<UserDto> ToDto(List<User> products)
+    public static List<UserDto> ToDto(List<User> users)
     {
-        return products.Select(u => ToDto(u)).ToList();
+        return users.Select(u => ToDto(u)).ToList();
     }
 
     public static UserDto ToDto(User user)
@@ -16,9 +16,9 @@ public class UserMapper
         return new UserDto
         {
             ExternalId = user.ExternalId,
+            Name = user.Name,
             Username = user.Username,
             Email = user.Email,
-            Passwordhash = user.Passwordhash,
         };
     }
 }

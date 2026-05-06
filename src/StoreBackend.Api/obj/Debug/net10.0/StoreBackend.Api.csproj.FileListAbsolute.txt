@@ -509,3 +509,5 @@ C:\Users\Justin\Documents\Universidad de Costa Rica\Software4\taller2_software4\
 C:\Users\Justin\Documents\Universidad de Costa Rica\Software4\taller2_software4\src\StoreBackend.Api\obj\Debug\net10.0\StoreBackend.Api.pdb
 C:\Users\Justin\Documents\Universidad de Costa Rica\Software4\taller2_software4\src\StoreBackend.Api\obj\Debug\net10.0\StoreBackend.Api.genruntimeconfig.cache
 C:\Users\Justin\Documents\Universidad de Costa Rica\Software4\taller2_software4\src\StoreBackend.Api\obj\Debug\net10.0\ref\StoreBackend.Api.dll
+C:\Users\Justin\OneDrive\Documents\Universidad de Costa Rica\Software4\StoreBackend\src\src\StoreBackend.Api\bin\Debug\net10.0\BCrypt.Net-Next.dll
+C:\Users\Justin\OneDrive\Documents\Universidad de Costa Rica\Software4\StoreBackend\src\src\StoreBackend.Api\obj\Debug\net10.0\StoreBackend.Api.sourcelink.json

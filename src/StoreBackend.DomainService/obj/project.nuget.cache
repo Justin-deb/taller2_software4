@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "U8IYuh1yNFU=",
+  "dgSpecHash": "/BBDT3rJoGA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.DomainService\\StoreBackend.DomainService.csproj",
+  "projectFilePath": "C:\\Users\\Justin\\OneDrive\\Documents\\Universidad de Costa Rica\\Software4\\StoreBackend\\src\\src\\StoreBackend.DomainService\\StoreBackend.DomainService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Justin\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\Justin\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
+    "C:\\Users\\Justin\\.nuget\\packages\\bcrypt.net-next\\4.1.0\\bcrypt.net-next.4.1.0.nupkg.sha512",
     "C:\\Users\\Justin\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
     "C:\\Users\\Justin\\.nuget\\packages\\microsoft.bcl.cryptography\\9.0.4\\microsoft.bcl.cryptography.9.0.4.nupkg.sha512",
     "C:\\Users\\Justin\\.nuget\\packages\\microsoft.data.sqlclient\\6.1.1\\microsoft.data.sqlclient.6.1.1.nupkg.sha512",

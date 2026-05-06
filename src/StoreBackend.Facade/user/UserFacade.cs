@@ -12,7 +12,7 @@ public class UserFacade : IUserFacade
     private readonly IUserService userService;
     private readonly AppDbContext context;
 
-    public UserFacade(IUserService userService,AppDbContext context)
+    public UserFacade(IUserService userService, AppDbContext context)
     {
         this.userService = userService;
         this.context = context;
@@ -27,10 +27,10 @@ public class UserFacade : IUserFacade
     public async Task<UserDto> GetByIdAsync(Guid userId)
     {
         var entity = await userService.GetByIdAsync(userId);
-        if(entity == null) throw new ResourceNotFoundException();
+        if (entity == null) throw new ResourceNotFoundException();
         return UserMapper.ToDto(entity);
     }
-    public async Task<UserDto> AddAsync(UserDto user)
+    public async Task<UserDto> AddAsync(CreateUserDto user)
     {
         var entity = await userService.AddAsync(user);
         await context.SaveChangesAsync();
@@ -41,6 +41,13 @@ public class UserFacade : IUserFacade
     {
         await userService.DeleteAsync(userId);
         await context.SaveChangesAsync();
+    }
+
+    public async Task<UserDto> CreateAsync(CreateUserDto user)
+    {
+        var entity = await userService.CreateAsync(user);
+        await context.SaveChangesAsync();
+        return UserMapper.ToDto(entity);
     }
 
 }
