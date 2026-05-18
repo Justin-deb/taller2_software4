@@ -19,7 +19,7 @@ public class UserRepository : IUserRepository
     }
     public async Task<User?> GetByIdAsync(Guid userId)
     {
-        return await _context.Users.FirstOrDefaultAsync(u => u.ExternalId == userId);
+        return await _context.Users.FirstOrDefaultAsync(u => u.UserResourceId == userId);
     }
     public async Task<User> AddAsync(User user)
     {

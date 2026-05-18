@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "ggPcnAT2TZE=",
-  "success": false,
+  "dgSpecHash": "gK/IRwfPacs=",
+  "success": true,
   "projectFilePath": "C:\\Users\\Profesores\\OneDrive\\Desktop\\Seguridad\\taller2_software4\\src\\StoreBackend.Infrastructure\\StoreBackend.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Profesores\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
@@ -41,17 +41,5 @@
     "C:\\Users\\Profesores\\.nuget\\packages\\system.security.cryptography.pkcs\\9.0.4\\system.security.cryptography.pkcs.9.0.4.nupkg.sha512",
     "C:\\Users\\Profesores\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.4\\system.security.cryptography.protecteddata.9.0.4.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Microsoft.EntityFrameworkCore from 10.0.8 to 10.0.2. Reference the package directly from the project to select a different version. \r\n StoreBackend.Infrastructure -> StoreBackend.Domain -> Microsoft.EntityFrameworkCore (>= 10.0.8) \r\n StoreBackend.Infrastructure -> Microsoft.EntityFrameworkCore (>= 10.0.2)",
-      "projectPath": "C:\\Users\\Profesores\\OneDrive\\Desktop\\Seguridad\\taller2_software4\\src\\StoreBackend.Infrastructure\\StoreBackend.Infrastructure.csproj",
-      "filePath": "C:\\Users\\Profesores\\OneDrive\\Desktop\\Seguridad\\taller2_software4\\src\\StoreBackend.Infrastructure\\StoreBackend.Infrastructure.csproj",
-      "libraryId": "Microsoft.EntityFrameworkCore",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    }
-  ]
+  "logs": []
 }

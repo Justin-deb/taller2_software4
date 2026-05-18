@@ -4,7 +4,7 @@ using StoreBackend.DomainService.product;
 using StoreBackend.Dto.product;
 using StoreBackend.Exceptions;
 using StoreBackend.Facade.Mappers;
-using StoreBackend.Infrastructure.Repositories;
+using StoreBackend.Infrastructure;
 
 namespace StoreBackend.Facade.product;
 

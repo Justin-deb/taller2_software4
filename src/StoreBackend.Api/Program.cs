@@ -14,6 +14,8 @@ using StoreBackend.Infrastructure.Repositories.product;
 using StoreBackend.DomainService.product;
 using StoreBackend.Facade.product;
 using StoreBackend.Facade.user;
+using System.Threading.RateLimiting;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -94,6 +96,17 @@ builder.Services.AddAuthorization(options =>
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
+builder.Services.AddRateLimiter(options =>
+{
+    options.AddFixedWindowLimiter("fixed", config =>
+    {
+        config.PermitLimit = 10;
+        config.Window = TimeSpan.FromSeconds(30);
+        config.QueueProcessingOrder = QueueProcessingOrder.OldestFirst;
+        config.QueueLimit = 2;
+    });
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -112,6 +125,6 @@ app.UseRateLimiter();
 
 app.UseAuthorization();
 
-app.MapControllers();
+app.MapControllers().RequireRateLimiting("fixed");
 
 app.Run();
