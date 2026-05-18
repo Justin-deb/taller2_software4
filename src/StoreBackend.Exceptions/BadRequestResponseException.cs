@@ -1,9 +1,12 @@
-using System;
-
 namespace StoreBackend.Exceptions;
 
-public class BadRequestResponseException : Exception
+public class BadRequestResponseException : MessageException
 {
-    public BadRequestResponseException() : base("Invalid Request") { }
-    public BadRequestResponseException(string message) : base(message) { }
+    public BadRequestResponseException() : base("Invalid request")
+    {
+    }
+
+    public BadRequestResponseException(string message) : base(message)
+    {
+    }
 }

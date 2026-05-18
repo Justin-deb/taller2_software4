@@ -1,53 +1,106 @@
-using System;
-using StoreBackend.DomainService.user;
-using StoreBackend.Dto.user;
+using StoreBackend.Domain.Entities;
+using StoreBackend.DomainService;
+using StoreBackend.Dto;
 using StoreBackend.Exceptions;
 using StoreBackend.Facade.Mappers;
-using StoreBackend.Infrastructure.Repositories;
+using StoreBackend.Infrastructure;
 
 namespace StoreBackend.Facade.user;
 
 public class UserFacade : IUserFacade
 {
-    private readonly IUserService userService;
+    private readonly IUserService _userService;
+    private readonly IRoleService roleService;
     private readonly AppDbContext context;
-
-    public UserFacade(IUserService userService, AppDbContext context)
+    public UserFacade(
+        IUserService userService,
+        IRoleService roleService,
+        AppDbContext dbContext)
     {
-        this.userService = userService;
-        this.context = context;
+        _userService = userService;
+        this.roleService = roleService;
+        context = dbContext;
     }
 
     public async Task<List<UserDto>> GetAllAsync()
     {
-        var entities = await userService.GetAllAsync();
+        var entities = await _userService.GetAllAsync();
         return UserMapper.ToDto(entities);
-    }
-
-    public async Task<UserDto> GetByIdAsync(Guid userId)
-    {
-        var entity = await userService.GetByIdAsync(userId);
-        if (entity == null) throw new ResourceNotFoundException();
-        return UserMapper.ToDto(entity);
-    }
-    public async Task<UserDto> AddAsync(CreateUserDto user)
-    {
-        var entity = await userService.AddAsync(user);
-        await context.SaveChangesAsync();
-        return UserMapper.ToDto(entity);
-    }
-
-    public async Task DeleteAsync(Guid userId)
-    {
-        await userService.DeleteAsync(userId);
-        await context.SaveChangesAsync();
     }
 
     public async Task<UserDto> CreateAsync(CreateUserDto user)
     {
-        var entity = await userService.CreateAsync(user);
+        var entity = await _userService.CreateAsync(user);
+
         await context.SaveChangesAsync();
         return UserMapper.ToDto(entity);
     }
 
+    public async Task<UserRolesDto> GetUserRolesAsync(Guid userId)
+    {
+        var user = await _userService.GetByResourceIdAsync(userId);
+
+        if (user == null)
+        {
+            throw new ResourceNotFoundException();
+        }
+
+        return UserMapper.ToUserRolesDto(user);
+    }
+
+    public async Task<UserRolesDto> UpdateUserRolesAsync(Guid userId, UpdateRolesDto dto)
+    {
+        List<Role>? allRoles = null;
+
+        if (dto.Roles?.Count > 0)
+        {
+            allRoles = await roleService.GetAllAsync();
+
+            if (dto.Roles.Any(role => !allRoles.Any(e => e.Name.Equals(role))))
+            {
+                throw new BadRequestResponseException("One or more roles do not exist.");
+            }
+        }
+
+        var user = await _userService.GetByResourceIdAsync(userId);
+
+        if (user == null)
+        {
+            throw new ResourceNotFoundException();
+        }
+
+        user.ClearRoles();
+
+        if (dto.Roles?.Count > 0)
+        {
+            allRoles ??= await roleService.GetAllAsync();
+            var matchedRoles = allRoles.Where(r => dto.Roles.Any(role => r.Name.Equals(role))).ToList();
+
+            var userRoles = matchedRoles.Select(role => new UserRole
+            {
+                User = user,
+                Role = role,
+            }).ToList();
+
+            user.UserRoles.AddRange(userRoles);
+        }
+
+        await context.SaveChangesAsync();
+
+        return UserMapper.ToUserRolesDto(user);
+    }
+
+    public async Task DeleteUserRolesAsync(Guid userId)
+    {
+        var user = await _userService.GetByResourceIdAsync(userId);
+
+        if (user == null)
+        {
+            throw new ResourceNotFoundException();
+        }
+
+        user.ClearRoles();
+
+        await context.SaveChangesAsync();
+    }
 }

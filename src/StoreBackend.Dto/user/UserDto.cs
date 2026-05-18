@@ -1,10 +1,11 @@
+
 using System;
 
-namespace StoreBackend.Dto.user;
+namespace StoreBackend.Dto;
 
 public class UserDto
 {
-    public required Guid ExternalId { get; set; }
+    public Guid UserResourceId { get; set; }
     public required string Name { get; set; }
     public required string Username { get; set; }
     public required string Email { get; set; }

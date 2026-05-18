@@ -9,25 +9,36 @@ public class User
 {
     [Key]
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-    public int Id { get; set; }
+    public int UserId { get; private set; }
+
+    [Required]
+    public Guid UserResourceId { get; set; }
 
     [Column("Name")]
     [StringLength(50)]
     [Required]
     public required string Name { get; set; }
 
+    [Column("Username")]
+    [StringLength(50)]
     [Required]
-    public Guid ExternalId { get; set; }
-
-    [Required]
-    [MaxLength(50)]
     public required string Username { get; set; }
 
     [Required]
     [MaxLength(100)]
-    public string Email { get; set; } = String.Empty;
+    [EmailAddress]
+    public string Email { get; set; } = string.Empty;
 
     [Required]
-    [MaxLength(256)]
-    public string Passwordhash { get; set; } = String.Empty;
+    [MaxLength(255)]
+    public string PasswordHash { get; set; } = string.Empty;
+
+
+    public List<UserRole> UserRoles { get; set; } = [];
+
+    public void ClearRoles()
+    {
+        UserRoles.Clear();
+    }
+
 }
