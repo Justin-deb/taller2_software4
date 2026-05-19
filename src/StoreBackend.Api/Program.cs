@@ -12,18 +12,30 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
-builder.Services.AddDbContext<AppDbContext>(opt => 
+builder.Services.AddDbContext<AppDbContext>(opt =>
         opt.UseSqlServer(
             builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddScoped<IProductRepository,ProductRepository>();
-builder.Services.AddScoped<IUserRepository,UserRepository>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 
-builder.Services.AddScoped<IProductService,ProductService>();
-builder.Services.AddScoped<IUserService,UserService>();
+builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IUserService, UserService>();
 
-builder.Services.AddScoped<IProductFacade,ProductFacade>();
-builder.Services.AddScoped<IUserFacade,UserFacade>();
+builder.Services.AddScoped<IProductFacade, ProductFacade>();
+builder.Services.AddScoped<IUserFacade, UserFacade>();
+var allowedOrigins = builder.Configuration
+ .GetSection("Cors:AllowedOrigins")
+ .Get<string[]>();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowedOriginsPolicy", policy =>
+    {
+        policy.WithOrigins(allowedOrigins!)
+     .AllowAnyHeader()
+     .AllowAnyMethod();
+    });
+});
 
 var app = builder.Build();
 
@@ -34,6 +46,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors("AllowedOriginsPolicy");
 
 app.UseAuthorization();
 
