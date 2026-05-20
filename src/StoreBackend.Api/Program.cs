@@ -109,6 +109,31 @@ builder.Services.AddRateLimiter(options =>
     });
 });
 
+var permitLimit = builder.Configuration.GetValue<int>("RateLimiting:PermitLimit");
+
+var windowSeconds = builder.Configuration.GetValue<int>("RateLimiting:WindowSeconds");
+
+var queueLimit = builder.Configuration.GetValue<int>("RateLimiting:QueueLimit");
+
+builder.Services.AddRateLimiter(options =>
+{
+    options.AddFixedWindowLimiter("fixed", limiterOptions =>
+    {
+        limiterOptions.PermitLimit = permitLimit;
+        limiterOptions.Window = TimeSpan.FromSeconds(windowSeconds);
+        limiterOptions.QueueProcessingOrder = QueueProcessingOrder.OldestFirst;
+        limiterOptions.QueueLimit = queueLimit;
+    });
+    options.RejectionStatusCode = StatusCodes.Status429TooManyRequests;
+    options.OnRejected = async (context, token) =>
+    {
+        context.HttpContext.Response.ContentType = "application/json";
+        await context.HttpContext.Response.WriteAsync("""{ "Status": 429, "message": "Oemasiadas solicitudes. Intente nuevamente Inas tarde.""", cancellationToken: token);
+    };
+});
+
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -126,6 +151,10 @@ app.UseAuthentication();
 app.UseRateLimiter();
 
 app.UseAuthorization();
+
+app.UseRateLimiter();
+
+
 
 app.MapControllers().RequireRateLimiting("fixed");
 
