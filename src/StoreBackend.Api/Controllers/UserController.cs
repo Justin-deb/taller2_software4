@@ -23,7 +23,7 @@ namespace StoreBackend.Api.Controllers
             return Ok(models);
         }
 
-        [Authorize(Roles = RoleNames.Administrator)]
+        //[Authorize(Roles = RoleNames.Administrator)]
         [HttpPost]
         public async Task<IActionResult> CreateUserAsync([FromBody] CreateUserRequestModel user)
         {
