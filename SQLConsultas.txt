@@ -73,3 +73,6 @@ GO
 
 ALTER TABLE [dbo].[Role] ADD  DEFAULT (newid()) FOR [RoleResourceId]
 GO
+
+DELETE u FROM dbo.[UserRole] u WHERE u.RoleId = 2 AND u.UserId = 1;
+GO
