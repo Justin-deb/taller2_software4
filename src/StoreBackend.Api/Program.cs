@@ -98,17 +98,6 @@ builder.Services.AddAuthorization(options =>
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
-builder.Services.AddRateLimiter(options =>
-{
-    options.AddFixedWindowLimiter("fixed", config =>
-    {
-        config.PermitLimit = 10;
-        config.Window = TimeSpan.FromSeconds(30);
-        config.QueueProcessingOrder = QueueProcessingOrder.OldestFirst;
-        config.QueueLimit = 2;
-    });
-});
-
 var permitLimit = builder.Configuration.GetValue<int>("RateLimiting:PermitLimit");
 
 var windowSeconds = builder.Configuration.GetValue<int>("RateLimiting:WindowSeconds");
@@ -128,7 +117,7 @@ builder.Services.AddRateLimiter(options =>
     options.OnRejected = async (context, token) =>
     {
         context.HttpContext.Response.ContentType = "application/json";
-        await context.HttpContext.Response.WriteAsync("""{ "Status": 429, "message": "Oemasiadas solicitudes. Intente nuevamente Inas tarde.""", cancellationToken: token);
+        await context.HttpContext.Response.WriteAsync("""{ "Status": 429, "message": "Demasiadas solicitudes. Intente nuevamente mas tarde.""", cancellationToken: token);
     };
 });
 
