@@ -1,42 +1,49 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Profesores\\OneDrive\\Desktop\\Seguridad\\taller2_software4\\src\\StoreBackend.DomainService\\StoreBackend.DomainService.csproj": {}
+    "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.DomainService\\StoreBackend.DomainService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Profesores\\OneDrive\\Desktop\\Seguridad\\taller2_software4\\src\\StoreBackend.DomainService\\StoreBackend.DomainService.csproj": {
+    "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.DomainService\\StoreBackend.DomainService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Profesores\\OneDrive\\Desktop\\Seguridad\\taller2_software4\\src\\StoreBackend.DomainService\\StoreBackend.DomainService.csproj",
+        "projectUniqueName": "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.DomainService\\StoreBackend.DomainService.csproj",
         "projectName": "StoreBackend.DomainService",
-        "projectPath": "C:\\Users\\Profesores\\OneDrive\\Desktop\\Seguridad\\taller2_software4\\src\\StoreBackend.DomainService\\StoreBackend.DomainService.csproj",
-        "packagesPath": "C:\\Users\\Profesores\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Profesores\\OneDrive\\Desktop\\Seguridad\\taller2_software4\\src\\StoreBackend.DomainService\\obj\\",
+        "projectPath": "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.DomainService\\StoreBackend.DomainService.csproj",
+        "packagesPath": "C:\\Users\\Justin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.DomainService\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Profesores\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Justin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Profesores\\OneDrive\\Desktop\\Seguridad\\taller2_software4\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj": {
-                "projectPath": "C:\\Users\\Profesores\\OneDrive\\Desktop\\Seguridad\\taller2_software4\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj"
+              "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj": {
+                "projectPath": "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj"
               },
-              "C:\\Users\\Profesores\\OneDrive\\Desktop\\Seguridad\\taller2_software4\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj": {
-                "projectPath": "C:\\Users\\Profesores\\OneDrive\\Desktop\\Seguridad\\taller2_software4\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj"
+              "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj": {
+                "projectPath": "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj"
               },
-              "C:\\Users\\Profesores\\OneDrive\\Desktop\\Seguridad\\taller2_software4\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj": {
-                "projectPath": "C:\\Users\\Profesores\\OneDrive\\Desktop\\Seguridad\\taller2_software4\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj"
+              "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj": {
+                "projectPath": "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj"
               },
-              "C:\\Users\\Profesores\\OneDrive\\Desktop\\Seguridad\\taller2_software4\\src\\StoreBackend.Infrastructure\\StoreBackend.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Profesores\\OneDrive\\Desktop\\Seguridad\\taller2_software4\\src\\StoreBackend.Infrastructure\\StoreBackend.Infrastructure.csproj"
+              "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.Infrastructure\\StoreBackend.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.Infrastructure\\StoreBackend.Infrastructure.csproj"
               }
             }
           }
@@ -51,10 +58,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "BCrypt.Net-Next": {
@@ -78,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -356,26 +364,33 @@
         }
       }
     },
-    "C:\\Users\\Profesores\\OneDrive\\Desktop\\Seguridad\\taller2_software4\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj": {
+    "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Profesores\\OneDrive\\Desktop\\Seguridad\\taller2_software4\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj",
         "projectName": "StoreBackend.Domain",
-        "projectPath": "C:\\Users\\Profesores\\OneDrive\\Desktop\\Seguridad\\taller2_software4\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj",
-        "packagesPath": "C:\\Users\\Profesores\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Profesores\\OneDrive\\Desktop\\Seguridad\\taller2_software4\\src\\StoreBackend.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj",
+        "packagesPath": "C:\\Users\\Justin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Profesores\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Justin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -390,10 +405,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
@@ -417,7 +433,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -695,26 +711,33 @@
         }
       }
     },
-    "C:\\Users\\Profesores\\OneDrive\\Desktop\\Seguridad\\taller2_software4\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj": {
+    "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Profesores\\OneDrive\\Desktop\\Seguridad\\taller2_software4\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj",
+        "projectUniqueName": "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj",
         "projectName": "StoreBackend.Dto",
-        "projectPath": "C:\\Users\\Profesores\\OneDrive\\Desktop\\Seguridad\\taller2_software4\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj",
-        "packagesPath": "C:\\Users\\Profesores\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Profesores\\OneDrive\\Desktop\\Seguridad\\taller2_software4\\src\\StoreBackend.Dto\\obj\\",
+        "projectPath": "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj",
+        "packagesPath": "C:\\Users\\Justin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.Dto\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Profesores\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Justin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -729,10 +752,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -750,7 +774,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1028,26 +1052,33 @@
         }
       }
     },
-    "C:\\Users\\Profesores\\OneDrive\\Desktop\\Seguridad\\taller2_software4\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj": {
+    "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Profesores\\OneDrive\\Desktop\\Seguridad\\taller2_software4\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj",
+        "projectUniqueName": "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj",
         "projectName": "StoreBackend.Exceptions",
-        "projectPath": "C:\\Users\\Profesores\\OneDrive\\Desktop\\Seguridad\\taller2_software4\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj",
-        "packagesPath": "C:\\Users\\Profesores\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Profesores\\OneDrive\\Desktop\\Seguridad\\taller2_software4\\src\\StoreBackend.Exceptions\\obj\\",
+        "projectPath": "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj",
+        "packagesPath": "C:\\Users\\Justin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.Exceptions\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Profesores\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Justin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -1062,10 +1093,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -1083,7 +1115,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1361,30 +1393,37 @@
         }
       }
     },
-    "C:\\Users\\Profesores\\OneDrive\\Desktop\\Seguridad\\taller2_software4\\src\\StoreBackend.Infrastructure\\StoreBackend.Infrastructure.csproj": {
+    "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.Infrastructure\\StoreBackend.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Profesores\\OneDrive\\Desktop\\Seguridad\\taller2_software4\\src\\StoreBackend.Infrastructure\\StoreBackend.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.Infrastructure\\StoreBackend.Infrastructure.csproj",
         "projectName": "StoreBackend.Infrastructure",
-        "projectPath": "C:\\Users\\Profesores\\OneDrive\\Desktop\\Seguridad\\taller2_software4\\src\\StoreBackend.Infrastructure\\StoreBackend.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Profesores\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Profesores\\OneDrive\\Desktop\\Seguridad\\taller2_software4\\src\\StoreBackend.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.Infrastructure\\StoreBackend.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Justin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Profesores\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Justin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Profesores\\OneDrive\\Desktop\\Seguridad\\taller2_software4\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj": {
-                "projectPath": "C:\\Users\\Profesores\\OneDrive\\Desktop\\Seguridad\\taller2_software4\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj"
+              "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj": {
+                "projectPath": "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj"
               }
             }
           }
@@ -1399,10 +1438,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
@@ -1430,7 +1470,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

@@ -2,11 +2,12 @@ using Microsoft.AspNetCore.Mvc;
 using StoreBackend.Api.Mappers;
 using StoreBackend.Facade;
 using StoreBackend.Api.Models.Requests;
+using Microsoft.AspNetCore.RateLimiting;
 
 namespace StoreBackend.Api.Controllers;
 
 [ApiController]
-// [EnableRateLimiting("Fixed")]
+[EnableRateLimiting("Fixed")]
 [Route("api/authorization")]
 public class AuthorizationController : ControllerBase
 {
