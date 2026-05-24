@@ -1,36 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj": {}
+    "/home/multithread-dev/Documents/Universidad de Costa Rica/Software4/taller2_software4/src/StoreBackend.Dto/StoreBackend.Dto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj": {
+    "/home/multithread-dev/Documents/Universidad de Costa Rica/Software4/taller2_software4/src/StoreBackend.Dto/StoreBackend.Dto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj",
+        "projectUniqueName": "/home/multithread-dev/Documents/Universidad de Costa Rica/Software4/taller2_software4/src/StoreBackend.Dto/StoreBackend.Dto.csproj",
         "projectName": "StoreBackend.Dto",
-        "projectPath": "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj",
-        "packagesPath": "C:\\Users\\Justin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Justin\\Documents\\Universidad de Costa Rica\\Software4\\taller2_software4\\src\\StoreBackend.Dto\\obj\\",
+        "projectPath": "/home/multithread-dev/Documents/Universidad de Costa Rica/Software4/taller2_software4/src/StoreBackend.Dto/StoreBackend.Dto.csproj",
+        "packagesPath": "/home/multithread-dev/.nuget/packages/",
+        "outputPath": "/home/multithread-dev/Documents/Universidad de Costa Rica/Software4/taller2_software4/src/StoreBackend.Dto/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Justin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/multithread-dev/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
-            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -45,11 +38,10 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -67,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.104/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

@@ -20,14 +20,15 @@ GO
 
 IF OBJECT_ID('dbo.[User]', 'U') IS NULL
 BEGIN
-CREATE TABLE [dbo].[User](
-    [Id] INT IDENTITY(1,1) NOT NULL,
-    [ExternalId] UNIQUEIDENTIFIER NOT NULL,
-    [Username] NVARCHAR(50) NOT NULL,
-    [Email] NVARCHAR(100) NOT NULL,
-    [Passwordhash] NVARCHAR(256) NOT NULL,
-    CONSTRAINT PK_User PRIMARY KEY ([Id])
-)
+    CREATE TABLE [dbo].[User](
+        [UserId] INT IDENTITY(1,1) NOT NULL,
+        [UserResourceId] UNIQUEIDENTIFIER NOT NULL,
+        [Name] NVARCHAR(50) NOT NULL,
+        [Username] NVARCHAR(50) NOT NULL,
+        [Email] NVARCHAR(100) NOT NULL,
+        [PasswordHash] NVARCHAR(255) NOT NULL,
+        CONSTRAINT [PK_User] PRIMARY KEY ([UserId])
+    )
 END
 GO
 
@@ -105,4 +106,7 @@ ALTER TABLE [dbo].[Role] ADD  DEFAULT (newid()) FOR [RoleResourceId]
 GO
 
 DELETE u FROM dbo.[UserRole] u WHERE u.RoleId = 2 AND u.UserId = 1;
+GO
+
+INSERT INTO dbo.Role (Name) VALUES ('Administrator'), ('Customer'), ('Support');
 GO
