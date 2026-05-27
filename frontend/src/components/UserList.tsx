@@ -14,11 +14,11 @@ const UserList = () => {
         <div>
             <h1>List of Users</h1>
             {users.map((u) => (
-                <div key={u.ExternalId}>
-                    <p>UserName: {u.Username}</p>
-                    <p>Name: {u.Name}</p>
-                    <p>Email: {u.Email}</p>
-                    <p>Id: {u.ExternalId}</p>
+                <div key={u.userResourceId}>
+                    <p>UserName: {u.username}</p>
+                    <p>Name: {u.name}</p>
+                    <p>Email: {u.email}</p>
+                    <p>Id: {u.userResourceId}</p>
                     <hr />
                 </div>))
             }

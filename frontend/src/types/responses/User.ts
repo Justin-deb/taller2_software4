@@ -1,6 +1,6 @@
 export interface User{
-    ExternalId:number,
-    Name:string,
-    Username:string,
-    Email:string
+    userResourceId:string,
+    name:string,
+    username:string,
+    email:string
 }
