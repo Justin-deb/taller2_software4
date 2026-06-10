@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "DtBpzZsVhUs=",
   "success": true,
   "projectFilePath": "C:\\Users\\carlo\\Downloads\\SqlServer-Store\\taller2_software4\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj",
+=======
+  "dgSpecHash": "rw6jT1tpZUg=",
+  "success": true,
+  "projectFilePath": "/home/multithread-dev/Documents/Universidad de Costa Rica/Software4/taller2_software4/src/StoreBackend.Dto/StoreBackend.Dto.csproj",
+>>>>>>> 3175790b3b2926299710411c81cb3c7e5b4d6c70
   "expectedPackageFiles": [],
   "logs": []
 }

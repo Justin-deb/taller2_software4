@@ -1,8 +1,27 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "Gqs2ObC69uE=",
   "success": true,
   "projectFilePath": "C:\\Users\\carlo\\Downloads\\SqlServer-Store\\taller2_software4\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj",
   "expectedPackageFiles": [],
+=======
+  "dgSpecHash": "1pS4SnFnwUE=",
+  "success": true,
+  "projectFilePath": "/home/multithread-dev/Documents/Universidad de Costa Rica/Software4/taller2_software4/src/StoreBackend.Domain/StoreBackend.Domain.csproj",
+  "expectedPackageFiles": [
+    "/home/multithread-dev/.nuget/packages/microsoft.entityframeworkcore/10.0.2/microsoft.entityframeworkcore.10.0.2.nupkg.sha512",
+    "/home/multithread-dev/.nuget/packages/microsoft.entityframeworkcore.abstractions/10.0.2/microsoft.entityframeworkcore.abstractions.10.0.2.nupkg.sha512",
+    "/home/multithread-dev/.nuget/packages/microsoft.entityframeworkcore.analyzers/10.0.2/microsoft.entityframeworkcore.analyzers.10.0.2.nupkg.sha512",
+    "/home/multithread-dev/.nuget/packages/microsoft.extensions.caching.abstractions/10.0.2/microsoft.extensions.caching.abstractions.10.0.2.nupkg.sha512",
+    "/home/multithread-dev/.nuget/packages/microsoft.extensions.caching.memory/10.0.2/microsoft.extensions.caching.memory.10.0.2.nupkg.sha512",
+    "/home/multithread-dev/.nuget/packages/microsoft.extensions.dependencyinjection/10.0.2/microsoft.extensions.dependencyinjection.10.0.2.nupkg.sha512",
+    "/home/multithread-dev/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.2/microsoft.extensions.dependencyinjection.abstractions.10.0.2.nupkg.sha512",
+    "/home/multithread-dev/.nuget/packages/microsoft.extensions.logging/10.0.2/microsoft.extensions.logging.10.0.2.nupkg.sha512",
+    "/home/multithread-dev/.nuget/packages/microsoft.extensions.logging.abstractions/10.0.2/microsoft.extensions.logging.abstractions.10.0.2.nupkg.sha512",
+    "/home/multithread-dev/.nuget/packages/microsoft.extensions.options/10.0.2/microsoft.extensions.options.10.0.2.nupkg.sha512",
+    "/home/multithread-dev/.nuget/packages/microsoft.extensions.primitives/10.0.2/microsoft.extensions.primitives.10.0.2.nupkg.sha512"
+  ],
+>>>>>>> 3175790b3b2926299710411c81cb3c7e5b4d6c70
   "logs": []
 }

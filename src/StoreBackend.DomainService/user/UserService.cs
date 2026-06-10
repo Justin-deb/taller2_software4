@@ -1,42 +1,65 @@
 using System;
 using StoreBackend.Domain.Entities;
-using StoreBackend.Dto.user;
+using StoreBackend.Dto;
 using StoreBackend.Exceptions;
-using StoreBackend.Infrastructure.Repositories.user;
+using StoreBackend.Infrastructure.Repositories;
 
-namespace StoreBackend.DomainService.user;
+namespace StoreBackend.DomainService;
 
 public class UserService : IUserService
 {
     private readonly IUserRepository _userRepository;
-
     public UserService(IUserRepository userRepository)
     {
         _userRepository = userRepository;
     }
+
     public Task<List<User>> GetAllAsync()
     {
         return _userRepository.GetAllAsync();
     }
-    public Task<User?> GetByIdAsync(Guid userId)
+
+    public Task<User?> GetByResourceIdAsync(Guid id)
     {
-        return _userRepository.GetByIdAsync(userId);
+        return _userRepository.GetByIdAsync(id);
     }
-    public Task<User> AddAsync(UserDto user)
+
+    public async Task<User> CreateAsync(CreateUserDto user)
     {
-        var userEntity = new User
+        if (await _userRepository.HasUserByUsernameAsync(user.Username))
         {
-            ExternalId = user.ExternalId,
+            throw new Exceptions.BadRequestResponseException("Username is already taken");
+        }
+        if (await _userRepository.HasUserByEmailAsync(user.Email))
+        {
+            throw new Exceptions.BadRequestResponseException("Email is already taken");
+        }
+
+        var entity = new User
+        {
+            UserResourceId = Guid.NewGuid(),
+            Name = user.Name,
             Username = user.Username,
             Email = user.Email,
-            Passwordhash = user.Passwordhash,
+            PasswordHash = BCrypt.Net.BCrypt.HashPassword(user.Password),
         };
-        return _userRepository.AddAsync(userEntity);
+
+        return await _userRepository.CreateAsync(entity);
     }
-    public async Task DeleteAsync(Guid userId)
+
+    public async Task<User?> GetByUserAndPassword(AuthorizationRequestDto request)
     {
-        var user = await _userRepository.GetByIdAsync(userId);
-        if(user == null) throw new ResourceNotFoundException();
-        await _userRepository.DeleteAsync(user);
+        var user = await _userRepository.GetByUsername(request.Username);
+        if (user == null)
+        {
+            return null;
+        }
+
+        if (!BCrypt.Net.BCrypt.Verify(request.Password, user.PasswordHash))
+        {
+            return null;
+        }
+
+        return user;
     }
 }

@@ -1,36 +1,59 @@
-using System;
 using StoreBackend.Api.Models.Requests.user;
 using StoreBackend.Api.Models.Responses.user;
-using StoreBackend.Dto.user;
+using StoreBackend.Dto;
 
 namespace StoreBackend.Api.Mappers;
 
 public class UserMapper
 {
-    public static UserDto ToDto(CreateUserRequestModel model)
-    {
-        return new UserDto
-        {
-            ExternalId = model.ExternalId,
-            Username = model.Username,
-            Email = model.Email,
-            Passwordhash = model.Passwordhash,
-        };
-    }
-
     public static List<UserResponseModel> ToModel(List<UserDto> users)
     {
-        return users.Select(p => ToModel(p)).ToList();
+        return users.Select(u => ToModel(u)).ToList();
     }
 
     public static UserResponseModel ToModel(UserDto user)
     {
         return new UserResponseModel
         {
-            ExternalId = user.ExternalId,
+            UserResourceId = user.UserResourceId,
+            Name = user.Name,
             Username = user.Username,
             Email = user.Email,
-            Passwordhash = user.Passwordhash,
+        };
+    }
+
+    public static CreateUserDto ToDto(CreateUserRequestModel user)
+    {
+        return new CreateUserDto
+        {
+            Name = user.Name,
+            Username = user.Username,
+            Email = user.Email,
+            Password = user.Password,
+        };
+    }
+
+    public static UserRolesResponseModel ToDto(UserRolesDto dto)
+    {
+        return new UserRolesResponseModel
+        {
+            Roles = dto.Roles?.Select(r => RoleMapper.MapRoleNameToAlias(r)).ToList() ?? [],
+        };
+    }
+
+    public static UpdateRolesDto ToDto(UpdateRolesRequestModel model)
+    {
+        return new UpdateRolesDto
+        {
+            Roles = model.Roles?.Distinct().Select(r => RoleMapper.MapRoleAliasToName(r)).ToList() ?? [],
+        };
+    }
+
+    public static UserRolesResponseModel ToUserRolesResponseModel(UserRolesDto model)
+    {
+        return new UserRolesResponseModel
+        {
+            Roles = model.Roles?.Select(r => RoleMapper.MapRoleNameToAlias(r)).ToList() ?? [],
         };
     }
 }

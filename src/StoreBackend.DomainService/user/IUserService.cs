@@ -1,13 +1,14 @@
 using System;
 using StoreBackend.Domain.Entities;
-using StoreBackend.Dto.user;
+using StoreBackend.Dto;
 
-namespace StoreBackend.DomainService.user;
+namespace StoreBackend.DomainService;
 
 public interface IUserService
 {
     Task<List<User>> GetAllAsync();
-    Task<User?> GetByIdAsync(Guid userId);
-    Task<User> AddAsync(UserDto user);
-    Task DeleteAsync(Guid user);
+    Task<User?> GetByResourceIdAsync(Guid id);
+    Task<User> CreateAsync(CreateUserDto user);
+    Task<User?> GetByUserAndPassword(AuthorizationRequestDto request);
+
 }

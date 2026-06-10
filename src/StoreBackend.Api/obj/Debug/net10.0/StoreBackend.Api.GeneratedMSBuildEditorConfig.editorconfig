@@ -19,13 +19,21 @@ build_property.TargetFrameworkIdentifier = .NETCoreApp
 build_property.TargetFrameworkVersion = v10.0
 build_property.RootNamespace = StoreBackend.Api
 build_property.RootNamespace = StoreBackend.Api
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\carlo\Downloads\SqlServer-Store\taller2_software4\src\StoreBackend.Api\
+=======
+build_property.ProjectDir = /home/multithread-dev/Documents/Universidad de Costa Rica/Software4/taller2_software4/src/StoreBackend.Api/
+>>>>>>> 3175790b3b2926299710411c81cb3c7e5b4d6c70
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+<<<<<<< HEAD
 build_property.MSBuildProjectDirectory = C:\Users\carlo\Downloads\SqlServer-Store\taller2_software4\src\StoreBackend.Api
+=======
+build_property.MSBuildProjectDirectory = /home/multithread-dev/Documents/Universidad de Costa Rica/Software4/taller2_software4/src/StoreBackend.Api
+>>>>>>> 3175790b3b2926299710411c81cb3c7e5b4d6c70
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 

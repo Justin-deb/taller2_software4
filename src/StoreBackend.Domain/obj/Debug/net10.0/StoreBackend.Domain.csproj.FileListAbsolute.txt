@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\Profesores\Documents\StoreBackend\src\src\StoreBackend.Domain\bin\Debug\net10.0\StoreBackend.Domain.deps.json
 C:\Users\Profesores\Documents\StoreBackend\src\src\StoreBackend.Domain\bin\Debug\net10.0\StoreBackend.Domain.dll
 C:\Users\Profesores\Documents\StoreBackend\src\src\StoreBackend.Domain\bin\Debug\net10.0\StoreBackend.Domain.pdb
@@ -56,3 +57,67 @@ C:\Users\carlo\Downloads\SqlServer-Store\taller2_software4\src\StoreBackend.Doma
 C:\Users\carlo\Downloads\SqlServer-Store\taller2_software4\src\StoreBackend.Domain\obj\Debug\net10.0\refint\StoreBackend.Domain.dll
 C:\Users\carlo\Downloads\SqlServer-Store\taller2_software4\src\StoreBackend.Domain\obj\Debug\net10.0\StoreBackend.Domain.pdb
 C:\Users\carlo\Downloads\SqlServer-Store\taller2_software4\src\StoreBackend.Domain\obj\Debug\net10.0\ref\StoreBackend.Domain.dll
+=======
+C:/Users/Profesores/Documents/StoreBackend/src/src/StoreBackend.Domain/bin/Debug/net10.0/StoreBackend.Domain.deps.json
+C:/Users/Profesores/Documents/StoreBackend/src/src/StoreBackend.Domain/bin/Debug/net10.0/StoreBackend.Domain.dll
+C:/Users/Profesores/Documents/StoreBackend/src/src/StoreBackend.Domain/bin/Debug/net10.0/StoreBackend.Domain.pdb
+C:/Users/Profesores/Documents/StoreBackend/src/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Profesores/Documents/StoreBackend/src/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.AssemblyInfoInputs.cache
+C:/Users/Profesores/Documents/StoreBackend/src/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.AssemblyInfo.cs
+C:/Users/Profesores/Documents/StoreBackend/src/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.csproj.CoreCompileInputs.cache
+C:/Users/Profesores/Documents/StoreBackend/src/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.dll
+C:/Users/Profesores/Documents/StoreBackend/src/src/StoreBackend.Domain/obj/Debug/net10.0/refint/StoreBackend.Domain.dll
+C:/Users/Profesores/Documents/StoreBackend/src/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.pdb
+C:/Users/Profesores/Documents/StoreBackend/src/src/StoreBackend.Domain/obj/Debug/net10.0/ref/StoreBackend.Domain.dll
+C:/Users/Justin/OneDrive/Documents/Universidad de Costa Rica/Software4/StoreBackend/src/src/StoreBackend.Domain/bin/Debug/net10.0/StoreBackend.Domain.deps.json
+C:/Users/Justin/OneDrive/Documents/Universidad de Costa Rica/Software4/StoreBackend/src/src/StoreBackend.Domain/bin/Debug/net10.0/StoreBackend.Domain.dll
+C:/Users/Justin/OneDrive/Documents/Universidad de Costa Rica/Software4/StoreBackend/src/src/StoreBackend.Domain/bin/Debug/net10.0/StoreBackend.Domain.pdb
+C:/Users/Justin/OneDrive/Documents/Universidad de Costa Rica/Software4/StoreBackend/src/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Justin/OneDrive/Documents/Universidad de Costa Rica/Software4/StoreBackend/src/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.AssemblyInfoInputs.cache
+C:/Users/Justin/OneDrive/Documents/Universidad de Costa Rica/Software4/StoreBackend/src/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.AssemblyInfo.cs
+C:/Users/Justin/OneDrive/Documents/Universidad de Costa Rica/Software4/StoreBackend/src/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.csproj.CoreCompileInputs.cache
+C:/Users/Justin/OneDrive/Documents/Universidad de Costa Rica/Software4/StoreBackend/src/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.dll
+C:/Users/Justin/OneDrive/Documents/Universidad de Costa Rica/Software4/StoreBackend/src/src/StoreBackend.Domain/obj/Debug/net10.0/refint/StoreBackend.Domain.dll
+C:/Users/Justin/OneDrive/Documents/Universidad de Costa Rica/Software4/StoreBackend/src/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.pdb
+C:/Users/Justin/OneDrive/Documents/Universidad de Costa Rica/Software4/StoreBackend/src/src/StoreBackend.Domain/obj/Debug/net10.0/ref/StoreBackend.Domain.dll
+C:/Users/Justin/Documents/Universidad de Costa Rica/Software4/taller2_software4/src/StoreBackend.Domain/bin/Debug/net10.0/StoreBackend.Domain.deps.json
+C:/Users/Justin/Documents/Universidad de Costa Rica/Software4/taller2_software4/src/StoreBackend.Domain/bin/Debug/net10.0/StoreBackend.Domain.dll
+C:/Users/Justin/Documents/Universidad de Costa Rica/Software4/taller2_software4/src/StoreBackend.Domain/bin/Debug/net10.0/StoreBackend.Domain.pdb
+C:/Users/Justin/Documents/Universidad de Costa Rica/Software4/taller2_software4/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Justin/Documents/Universidad de Costa Rica/Software4/taller2_software4/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.AssemblyInfoInputs.cache
+C:/Users/Justin/Documents/Universidad de Costa Rica/Software4/taller2_software4/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.AssemblyInfo.cs
+C:/Users/Justin/Documents/Universidad de Costa Rica/Software4/taller2_software4/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.csproj.CoreCompileInputs.cache
+C:/Users/Justin/Documents/Universidad de Costa Rica/Software4/taller2_software4/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.sourcelink.json
+C:/Users/Justin/Documents/Universidad de Costa Rica/Software4/taller2_software4/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.dll
+C:/Users/Justin/Documents/Universidad de Costa Rica/Software4/taller2_software4/src/StoreBackend.Domain/obj/Debug/net10.0/refint/StoreBackend.Domain.dll
+C:/Users/Justin/Documents/Universidad de Costa Rica/Software4/taller2_software4/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.pdb
+C:/Users/Justin/Documents/Universidad de Costa Rica/Software4/taller2_software4/src/StoreBackend.Domain/obj/Debug/net10.0/ref/StoreBackend.Domain.dll
+C:/Users/Justin/OneDrive/Documents/Universidad de Costa Rica/Software4/StoreBackend/src/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.sourcelink.json
+C:/Users/Profesores/OneDrive/Desktop/Seguridad/taller2_software4/src/StoreBackend.Domain/bin/Debug/net10.0/StoreBackend.Domain.deps.json
+C:/Users/Profesores/OneDrive/Desktop/Seguridad/taller2_software4/src/StoreBackend.Domain/bin/Debug/net10.0/StoreBackend.Domain.dll
+C:/Users/Profesores/OneDrive/Desktop/Seguridad/taller2_software4/src/StoreBackend.Domain/bin/Debug/net10.0/StoreBackend.Domain.pdb
+C:/Users/Profesores/OneDrive/Desktop/Seguridad/taller2_software4/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.csproj.AssemblyReference.cache
+C:/Users/Profesores/OneDrive/Desktop/Seguridad/taller2_software4/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Profesores/OneDrive/Desktop/Seguridad/taller2_software4/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.AssemblyInfoInputs.cache
+C:/Users/Profesores/OneDrive/Desktop/Seguridad/taller2_software4/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.AssemblyInfo.cs
+C:/Users/Profesores/OneDrive/Desktop/Seguridad/taller2_software4/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.csproj.CoreCompileInputs.cache
+C:/Users/Profesores/OneDrive/Desktop/Seguridad/taller2_software4/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.sourcelink.json
+C:/Users/Profesores/OneDrive/Desktop/Seguridad/taller2_software4/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.dll
+C:/Users/Profesores/OneDrive/Desktop/Seguridad/taller2_software4/src/StoreBackend.Domain/obj/Debug/net10.0/refint/StoreBackend.Domain.dll
+C:/Users/Profesores/OneDrive/Desktop/Seguridad/taller2_software4/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.pdb
+C:/Users/Profesores/OneDrive/Desktop/Seguridad/taller2_software4/src/StoreBackend.Domain/obj/Debug/net10.0/ref/StoreBackend.Domain.dll
+C:/Users/Justin/Documents/Universidad de Costa Rica/Software4/taller2_software4/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.csproj.AssemblyReference.cache
+/home/multithread-dev/Documents/Universidad de Costa Rica/Software4/taller2_software4/src/StoreBackend.Domain/bin/Debug/net10.0/StoreBackend.Domain.deps.json
+/home/multithread-dev/Documents/Universidad de Costa Rica/Software4/taller2_software4/src/StoreBackend.Domain/bin/Debug/net10.0/StoreBackend.Domain.dll
+/home/multithread-dev/Documents/Universidad de Costa Rica/Software4/taller2_software4/src/StoreBackend.Domain/bin/Debug/net10.0/StoreBackend.Domain.pdb
+/home/multithread-dev/Documents/Universidad de Costa Rica/Software4/taller2_software4/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.csproj.AssemblyReference.cache
+/home/multithread-dev/Documents/Universidad de Costa Rica/Software4/taller2_software4/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/multithread-dev/Documents/Universidad de Costa Rica/Software4/taller2_software4/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.AssemblyInfoInputs.cache
+/home/multithread-dev/Documents/Universidad de Costa Rica/Software4/taller2_software4/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.AssemblyInfo.cs
+/home/multithread-dev/Documents/Universidad de Costa Rica/Software4/taller2_software4/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.csproj.CoreCompileInputs.cache
+/home/multithread-dev/Documents/Universidad de Costa Rica/Software4/taller2_software4/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.sourcelink.json
+/home/multithread-dev/Documents/Universidad de Costa Rica/Software4/taller2_software4/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.dll
+/home/multithread-dev/Documents/Universidad de Costa Rica/Software4/taller2_software4/src/StoreBackend.Domain/obj/Debug/net10.0/refint/StoreBackend.Domain.dll
+/home/multithread-dev/Documents/Universidad de Costa Rica/Software4/taller2_software4/src/StoreBackend.Domain/obj/Debug/net10.0/StoreBackend.Domain.pdb
+/home/multithread-dev/Documents/Universidad de Costa Rica/Software4/taller2_software4/src/StoreBackend.Domain/obj/Debug/net10.0/ref/StoreBackend.Domain.dll
+>>>>>>> 3175790b3b2926299710411c81cb3c7e5b4d6c70

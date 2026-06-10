@@ -19,7 +19,7 @@ public class UserRepository : IUserRepository
     }
     public async Task<User?> GetByIdAsync(Guid userId)
     {
-        return await _context.Users.FirstOrDefaultAsync(u => u.ExternalId == userId);
+        return await _context.Users.FirstOrDefaultAsync(u => u.UserResourceId == userId);
     }
     public async Task<User> AddAsync(User user)
     {
@@ -29,5 +29,21 @@ public class UserRepository : IUserRepository
     public async Task DeleteAsync(User user)
     {
         _context.Users.Remove(user);
+    }
+
+    public async Task<User> CreateAsync(User user)
+    {
+        _context.Users.Add(user);
+        return user;
+    }
+
+    public async Task<bool> HasUserByUsernameAsync(string username)
+    {
+        return await _context.Users.AnyAsync(u => u.Username == username);
+    }
+
+    public async Task<bool> HasUserByEmailAsync(string email)
+    {
+        return await _context.Users.AnyAsync(u => u.Email == email);
     }
 }

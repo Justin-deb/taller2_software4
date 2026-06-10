@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "npDGZlQ2bQY=",
   "success": true,
   "projectFilePath": "C:\\Users\\carlo\\Downloads\\SqlServer-Store\\taller2_software4\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj",
+=======
+  "dgSpecHash": "q2HncazQc1E=",
+  "success": true,
+  "projectFilePath": "/home/multithread-dev/Documents/Universidad de Costa Rica/Software4/taller2_software4/src/StoreBackend.Exceptions/StoreBackend.Exceptions.csproj",
+>>>>>>> 3175790b3b2926299710411c81cb3c7e5b4d6c70
   "expectedPackageFiles": [],
   "logs": []
 }
