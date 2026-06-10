@@ -1,1 +1,4 @@
-{}
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/fdb9524d-135a-40f3-86db-1e0d9b533c45/resourceGroups/StoreResourceGroup/providers/Microsoft.Web/sites/csporject",
+    "appService.deploySubpath": "src\\StoreBackend.Api"
+}

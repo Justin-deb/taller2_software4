@@ -32,3 +32,27 @@ C:\Users\Justin\Documents\Universidad de Costa Rica\Software4\taller2_software4\
 C:\Users\Justin\Documents\Universidad de Costa Rica\Software4\taller2_software4\src\StoreBackend.Exceptions\obj\Debug\net10.0\refint\StoreBackend.Exceptions.dll
 C:\Users\Justin\Documents\Universidad de Costa Rica\Software4\taller2_software4\src\StoreBackend.Exceptions\obj\Debug\net10.0\StoreBackend.Exceptions.pdb
 C:\Users\Justin\Documents\Universidad de Costa Rica\Software4\taller2_software4\src\StoreBackend.Exceptions\obj\Debug\net10.0\ref\StoreBackend.Exceptions.dll
+C:\Users\carlo\Desktop\SqlServer-Store\taller2_software4\src\StoreBackend.Exceptions\bin\Debug\net10.0\StoreBackend.Exceptions.deps.json
+C:\Users\carlo\Desktop\SqlServer-Store\taller2_software4\src\StoreBackend.Exceptions\bin\Debug\net10.0\StoreBackend.Exceptions.dll
+C:\Users\carlo\Desktop\SqlServer-Store\taller2_software4\src\StoreBackend.Exceptions\bin\Debug\net10.0\StoreBackend.Exceptions.pdb
+C:\Users\carlo\Desktop\SqlServer-Store\taller2_software4\src\StoreBackend.Exceptions\obj\Debug\net10.0\StoreBackend.Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\Desktop\SqlServer-Store\taller2_software4\src\StoreBackend.Exceptions\obj\Debug\net10.0\StoreBackend.Exceptions.AssemblyInfoInputs.cache
+C:\Users\carlo\Desktop\SqlServer-Store\taller2_software4\src\StoreBackend.Exceptions\obj\Debug\net10.0\StoreBackend.Exceptions.AssemblyInfo.cs
+C:\Users\carlo\Desktop\SqlServer-Store\taller2_software4\src\StoreBackend.Exceptions\obj\Debug\net10.0\StoreBackend.Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\carlo\Desktop\SqlServer-Store\taller2_software4\src\StoreBackend.Exceptions\obj\Debug\net10.0\StoreBackend.Exceptions.sourcelink.json
+C:\Users\carlo\Desktop\SqlServer-Store\taller2_software4\src\StoreBackend.Exceptions\obj\Debug\net10.0\StoreBackend.Exceptions.dll
+C:\Users\carlo\Desktop\SqlServer-Store\taller2_software4\src\StoreBackend.Exceptions\obj\Debug\net10.0\refint\StoreBackend.Exceptions.dll
+C:\Users\carlo\Desktop\SqlServer-Store\taller2_software4\src\StoreBackend.Exceptions\obj\Debug\net10.0\StoreBackend.Exceptions.pdb
+C:\Users\carlo\Desktop\SqlServer-Store\taller2_software4\src\StoreBackend.Exceptions\obj\Debug\net10.0\ref\StoreBackend.Exceptions.dll
+C:\Users\carlo\Downloads\SqlServer-Store\taller2_software4\src\StoreBackend.Exceptions\bin\Debug\net10.0\StoreBackend.Exceptions.deps.json
+C:\Users\carlo\Downloads\SqlServer-Store\taller2_software4\src\StoreBackend.Exceptions\bin\Debug\net10.0\StoreBackend.Exceptions.dll
+C:\Users\carlo\Downloads\SqlServer-Store\taller2_software4\src\StoreBackend.Exceptions\bin\Debug\net10.0\StoreBackend.Exceptions.pdb
+C:\Users\carlo\Downloads\SqlServer-Store\taller2_software4\src\StoreBackend.Exceptions\obj\Debug\net10.0\StoreBackend.Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\Downloads\SqlServer-Store\taller2_software4\src\StoreBackend.Exceptions\obj\Debug\net10.0\StoreBackend.Exceptions.AssemblyInfoInputs.cache
+C:\Users\carlo\Downloads\SqlServer-Store\taller2_software4\src\StoreBackend.Exceptions\obj\Debug\net10.0\StoreBackend.Exceptions.AssemblyInfo.cs
+C:\Users\carlo\Downloads\SqlServer-Store\taller2_software4\src\StoreBackend.Exceptions\obj\Debug\net10.0\StoreBackend.Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\carlo\Downloads\SqlServer-Store\taller2_software4\src\StoreBackend.Exceptions\obj\Debug\net10.0\StoreBackend.Exceptions.sourcelink.json
+C:\Users\carlo\Downloads\SqlServer-Store\taller2_software4\src\StoreBackend.Exceptions\obj\Debug\net10.0\StoreBackend.Exceptions.dll
+C:\Users\carlo\Downloads\SqlServer-Store\taller2_software4\src\StoreBackend.Exceptions\obj\Debug\net10.0\refint\StoreBackend.Exceptions.dll
+C:\Users\carlo\Downloads\SqlServer-Store\taller2_software4\src\StoreBackend.Exceptions\obj\Debug\net10.0\StoreBackend.Exceptions.pdb
+C:\Users\carlo\Downloads\SqlServer-Store\taller2_software4\src\StoreBackend.Exceptions\obj\Debug\net10.0\ref\StoreBackend.Exceptions.dll
