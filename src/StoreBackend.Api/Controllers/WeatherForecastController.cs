@@ -26,6 +26,6 @@ public class WeatherForecastController : ControllerBase
     [HttpGet("/")]
     public Task<ResultAction> getEndpoint()
     {
-        return Ok();
+        return NotFound();
     }
 }
