@@ -22,4 +22,9 @@ public class WeatherForecastController : ControllerBase
         })
         .ToArray();
     }
+
+    public string Greetings()
+    {
+        return "Hello";
+    }
 }
