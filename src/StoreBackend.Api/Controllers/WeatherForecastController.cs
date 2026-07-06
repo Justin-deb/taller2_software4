@@ -22,10 +22,4 @@ public class WeatherForecastController : ControllerBase
         })
         .ToArray();
     }
-
-    [HttpGet("/")]
-    public Task<ResultAction> getEndpoint()
-    {
-        return NotFound();
-    }
 }
